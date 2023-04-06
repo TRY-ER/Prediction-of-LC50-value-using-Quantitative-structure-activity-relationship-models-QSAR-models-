@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Monda:700");
+
+#main_body{
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: auto; 
+}
+
+body{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../public/assets/fish-dark.jpg");
+    background-size: cover;
+}
+
+/* #eclipse{
+    position: absolute;
+    width: 755px;
+    height: 743px;
+    right: -188px;
+    top: -198px;
+
+    background: #AAA8F4;
+    mix-blend-mode: overlay;
+    filter: blur(200px);
+} */
+#main_body{
+    align-items : center;
+    text-align: center;
+}
+#title {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+
+#colName{
+    font-weight: 150;
+    font-size: 20px;
+    padding-top: 30px;
+    color:blanchedalmond;
+}
+.box{
+    background: rgba(0,0,0,0.8);
+    margin-right: 20vw;
+    border-radius: 50px;
+    margin-left: 20vw;
+    padding-bottom: 5vw;
+}
+#limiter{
+    color:#AAA8F4;
+    font-style: italic;
+}
+
+#result{
+    display: flex;
+    justify-content: left;
+}
+#result_text{
+    color:#AAA8F4;
+    font-size: 25px;
+}
+
+#result_text_main{
+    display: flex;
+    font-size: 25px;
+    color:#ff0095;
+}
+
+#submit_btn{
+    outline: 0;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #4effbb;
+    background: #55ffc8;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: box-shadow 0.2s ease-out;
+}
+
+#submit_btn:hover {
+    background-color: #9cedff;
+    color: #000;
+    box-shadow: 0 0 5px #a0e2ff,
+                0 0 10px rgba(83, 226, 255, 0.8),
+                0 0 25px rgba(92, 247, 255, 0.7),
+                0 0 25px rgba(103, 247, 255, 0.6);
+    border-color: #fff;
+}
+
+#warning {
+    color: rgb(247, 147, 147);
+}
+
+#scale{
+    color: rgb(255, 0, 0);
+}
+
+.text_box{
+    width: 100px;
+    height: 20px;
+    background: #041e33;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    font-size: large; 
+    font-weight: 300;
+}
+
+
+
+
+.cat_drop{
+background-color: #041e33;
+color: white;
+padding: 12px;
+width: 250px;
+border: none;
+font-size: 15px;
+box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+appearance: button;
+outline: none;
+}
+
+.cat_drop::before {
+content: "\f13a";
+font-family: FontAwesome;
+position: absolute;
+top: 0;
+right: 0;
+width: 20%;
+height: 100%;
+text-align: center;
+font-size: 28px;
+line-height: 45px;
+color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.1);
+pointer-events: none;
+}
+
+.cat_drop:hover::before {
+color: rgba(255, 255, 255, 0.6);
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* .cat_drop select option {
+padding: 30px;
+} */
