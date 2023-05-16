@@ -35,8 +35,8 @@ body{
     font-family: 'Monda';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 65px;
+    font-size: 30px;
+    line-height: 40px;
     color: #FFFFFF;
 }
 
@@ -44,7 +44,7 @@ body{
 #colName{
     font-weight: 150;
     font-size: 20px;
-    padding-top: 30px;
+    /* padding-top: 10px; */
     color:blanchedalmond;
 }
 .box{
@@ -52,7 +52,7 @@ body{
     margin-right: 20vw;
     border-radius: 50px;
     margin-left: 20vw;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
 }
 #limiter{
     color:#AAA8F4;
@@ -61,7 +61,8 @@ body{
 
 #result{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
 }
 #result_text{
     color:#AAA8F4;
@@ -77,7 +78,7 @@ body{
 #submit_btn{
     outline: 0;
     display: inline-block;
-    padding: 10px 40px;
+    padding: 5px 40px;
     font-size: 20px;
     overflow: hidden;
     cursor: pointer;
@@ -116,7 +117,7 @@ body{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
     border: 0;
     outline: 0;
-    padding: 15px 18px;
+    padding: 7px 18px;
     font-size: large; 
     font-weight: 300;
 }
@@ -127,7 +128,7 @@ body{
 .cat_drop{
 background-color: #041e33;
 color: white;
-padding: 12px;
+padding: 6px;
 width: 250px;
 border: none;
 font-size: 15px;

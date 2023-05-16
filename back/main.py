@@ -8,8 +8,8 @@ from own.preprocess import Preprocess
 import sklearn
 
 
-col_data = joblib.load("col_bool_mod.z")
-  
+col_data = joblib.load("./utils/col_meta.z")
+
 app = FastAPI()
 
 origins = [
@@ -37,11 +37,11 @@ async def provide(data: list):
 
 
 def predict_main(df):
-    num_folds =  len(os.listdir("./models/"))
+    num_folds =  len(os.listdir("./sample_xg_models"))
     result_li = []
     for fold in range(num_folds):
         print(f"predicting for fold {fold} / {num_folds}")
-        model = joblib.load(f"./models/xgboost_old/{fold}_xg_boost_reg_no_optim/{fold}_model.z")
+        model = joblib.load(f"./sample_xg_models/{fold}_xgb_reg.z")
         print(df.shape)
         result = model.predict(df)
         print(result)

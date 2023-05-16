@@ -34,7 +34,9 @@ export function Predictor() {
         const data = await response.json();
         console.log(data);
         
-        if(!response.ok) {console.log("response not working properly");}
+        if(!response.ok) {
+            console.log("response not working properly");
+        }
         else{
             setcResponse(data);
         }
@@ -46,7 +48,7 @@ export function Predictor() {
         setLoading(true);
         setClicked(true);
         const formData = new FormData(form);
-        // console.log([...formData]);
+        console.log([...formData]);
         axios({
             method: "post",
             url: "http://127.0.0.1:8000/predict",
@@ -59,11 +61,9 @@ export function Predictor() {
             console.log(data.data);
         })
         .catch(function (err) {
-            console.log(err);
-        })
-        
+            console.log(err); 
+        }) 
     }
-
     useEffect(() => {
         getRes();},[]);
        
@@ -82,23 +82,23 @@ export function Predictor() {
             <br/>
             <div className="box">
             <h2 id="colName">CIC0 (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.CIC0?.min} and {cResponse.CIC0?.max}</p>
+<input type="number" name="CIC0" id="CIC0" className="text_box"  defaultValue = {cResponse.CIC0?.min} min={cResponse.CIC0?.min} max={cResponse.CIC0?.max} step = "0.0001" placeholder="0" required ></input>
            <h2 id="colName">SM1_Dz(Z) (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.SM1_Dz?.min} and {cResponse.SM1_Dz?.max}</p>
+<input type="number" name="SM1_Dz" id="SM1_Dz" className="text_box"  defaultValue = {cResponse.SM1_Dz?.min} min={cResponse.SM1_Dz?.min} max={cResponse.SM1_Dz?.max} step = "0.0001" placeholder="0" required ></input>
             <h2 id="colName">GATS1i (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.GATS1i?.min} and {cResponse.GATS1i?.max}</p>
+<input type="number" name="GATS1i" id="GATS1i" className="text_box"  defaultValue = {cResponse.GATS1i?.min} min={cResponse.GATS1i?.min} max={cResponse.GATS1i?.max} step = "0.0001" placeholder="0" required ></input>
             <h2 id="colName">NdsCH (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.NdsCH?.min} and {cResponse.NdsCH?.max}</p>
+<input type="number" name="NdsCH" id="NdsCH" className="text_box"  defaultValue = {cResponse.NdsCH?.min} min={cResponse.NdsCH?.min} max={cResponse.NdsCH?.max} step = "0.0001" placeholder="0" required ></input>
             <h2 id="colName">NdssC (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.NdssC?.min} and {cResponse.NdssC?.max}</p>
+<input type="number" name="NdssC" id="NdssC" className="text_box"  defaultValue = {cResponse.NdssC?.min} min={cResponse.NdssC?.min} max={cResponse.NdssC?.max} step = "0.0001" placeholder="0" required ></input>
             <h2 id="colName">MLOGP (in Unit)</h2>
-<p id="limiter">Enter value between {cResponse.Cell_area_measured_numeric?.min} and {cResponse.Cell_area_measured_numeric?.max}</p>
-<input type="number" name="Cell_area_measured_numeric" id="Cell_area_measured_numeric" className="text_box"  defaultValue = {cResponse.Cell_area_measured_numeric?.min} min={cResponse.Cell_area_measured_numeric?.min} max={cResponse.Cell_area_measured_numeric?.max} step = "0.0001" placeholder="0" required ></input>
+<p id="limiter">Enter value between {cResponse.MLOGP?.min} and {cResponse.MLOGP?.max}</p>
+<input type="number" name="MLOGP" id="MLOGP" className="text_box"  defaultValue = {cResponse.MLOGP?.min} min={cResponse.MLOGP?.min} max={cResponse.MLOGP?.max} step = "0.0001" placeholder="0" required ></input>
             </div>
                <br/>
                <br/>
