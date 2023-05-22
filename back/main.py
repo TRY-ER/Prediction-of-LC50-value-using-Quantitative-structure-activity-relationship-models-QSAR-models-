@@ -37,11 +37,11 @@ async def provide(data: list):
 
 
 def predict_main(df):
-    num_folds =  len(os.listdir("./sample_xg_models"))
+    num_folds =  len(os.listdir("./RandomForest_result"))
     result_li = []
     for fold in range(num_folds):
         print(f"predicting for fold {fold} / {num_folds}")
-        model = joblib.load(f"./sample_xg_models/{fold}_xgb_reg.z")
+        model = joblib.load(f"./RandomForest_result/{fold}_xgb_reg.z")
         print(df.shape)
         result = model.predict(df)
         print(result)
