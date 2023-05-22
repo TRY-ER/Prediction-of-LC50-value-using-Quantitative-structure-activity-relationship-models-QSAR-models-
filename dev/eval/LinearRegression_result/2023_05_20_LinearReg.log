@@ -1,0 +1,32 @@
+2023-05-20 08:18:00,062 - Model Logger - INFO - Logging Started
+2023-05-20 08:18:01,005 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 0
+2023-05-20 08:18:01,042 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 0
+2023-05-20 08:18:01,042 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 1
+2023-05-20 08:18:01,050 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 1
+2023-05-20 08:18:01,050 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 2
+2023-05-20 08:18:01,057 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 2
+2023-05-20 08:18:01,057 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 3
+2023-05-20 08:18:01,064 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 3
+2023-05-20 08:18:01,065 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 4
+2023-05-20 08:18:01,072 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 4
+2023-05-20 08:18:01,072 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 5
+2023-05-20 08:18:01,078 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 5
+2023-05-20 08:18:01,079 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 6
+2023-05-20 08:18:01,087 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 6
+2023-05-20 08:18:01,087 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 7
+2023-05-20 08:18:01,093 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 7
+2023-05-20 08:18:01,094 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 8
+2023-05-20 08:18:01,100 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 8
+2023-05-20 08:18:01,100 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 9
+2023-05-20 08:18:01,107 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 9
+2023-05-20 08:18:01,107 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 10
+2023-05-20 08:18:01,113 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 10
+2023-05-20 08:18:01,114 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 11
+2023-05-20 08:18:01,120 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 11
+2023-05-20 08:18:01,121 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 12
+2023-05-20 08:18:01,127 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 12
+2023-05-20 08:18:01,127 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 13
+2023-05-20 08:18:01,133 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 13
+2023-05-20 08:18:01,134 - Model Logger - INFO - [LinearRegression] Cross Validation loop started for fold 14
+2023-05-20 08:18:01,140 - Model Logger - INFO - [LinearRegression] Cross Validation loop ended for fold 14
+2023-05-20 08:18:01,140 - Model Logger - INFO - [LinearRegression] Main Training Loop Ended
