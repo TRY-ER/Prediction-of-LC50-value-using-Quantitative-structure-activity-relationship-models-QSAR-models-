@@ -1,2 +1,6 @@
 ./dev/dataset
 .git
+/dev/dataset
+/dev/eval
+./dev/dataset
+./dev/eval
