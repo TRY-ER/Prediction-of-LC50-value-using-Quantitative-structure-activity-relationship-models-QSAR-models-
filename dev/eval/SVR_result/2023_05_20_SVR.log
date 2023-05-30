@@ -1,0 +1,35 @@
+2023-05-20 06:53:49,958 - Model Logger - INFO - Logging Started
+2023-05-20 06:53:50,808 - Model Logger - INFO - [SVR] Hyper-Optim Started on fold 7
+2023-05-20 06:53:52,347 - Model Logger - INFO - [SVR] Hyper-Optim Ended on fold 7
+2023-05-20 06:53:52,350 - Model Logger - INFO - [SVR] Cross Validation loop started
+2023-05-20 06:53:52,350 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 0
+2023-05-20 06:53:52,420 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 0
+2023-05-20 06:53:52,421 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 1
+2023-05-20 06:53:52,488 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 1
+2023-05-20 06:53:52,488 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 2
+2023-05-20 06:53:52,554 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 2
+2023-05-20 06:53:52,554 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 3
+2023-05-20 06:53:52,620 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 3
+2023-05-20 06:53:52,620 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 4
+2023-05-20 06:53:52,682 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 4
+2023-05-20 06:53:52,683 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 5
+2023-05-20 06:53:52,747 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 5
+2023-05-20 06:53:52,747 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 6
+2023-05-20 06:53:52,813 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 6
+2023-05-20 06:53:52,813 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 7
+2023-05-20 06:53:52,881 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 7
+2023-05-20 06:53:52,881 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 8
+2023-05-20 06:53:52,948 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 8
+2023-05-20 06:53:52,948 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 9
+2023-05-20 06:53:53,016 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 9
+2023-05-20 06:53:53,016 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 10
+2023-05-20 06:53:53,083 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 10
+2023-05-20 06:53:53,083 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 11
+2023-05-20 06:53:53,149 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 11
+2023-05-20 06:53:53,149 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 12
+2023-05-20 06:53:53,214 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 12
+2023-05-20 06:53:53,214 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 13
+2023-05-20 06:53:53,280 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 13
+2023-05-20 06:53:53,281 - Model Logger - INFO - [SVR] Cross Validation loop started for fold 14
+2023-05-20 06:53:53,373 - Model Logger - INFO - [SVR] Cross Validation loop ended for fold 14
+2023-05-20 06:53:53,374 - Model Logger - INFO - [SVR] Main Training Loop Ended

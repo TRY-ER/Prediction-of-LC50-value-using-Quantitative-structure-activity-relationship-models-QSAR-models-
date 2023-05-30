@@ -1,0 +1,35 @@
+2023-05-20 06:16:40,433 - Model Logger - INFO - Logging Started
+2023-05-20 06:16:41,274 - Model Logger - INFO - [RFReg] Hyper-Optim Started on fold 1
+2023-05-20 06:17:14,239 - Model Logger - INFO - [RFReg] Hyper-Optim Ended on fold 1
+2023-05-20 06:17:14,241 - Model Logger - INFO - [RFReg] Cross Validation loop started
+2023-05-20 06:17:14,241 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 0
+2023-05-20 06:17:14,931 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 0
+2023-05-20 06:17:14,932 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 1
+2023-05-20 06:17:15,604 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 1
+2023-05-20 06:17:15,604 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 2
+2023-05-20 06:17:16,298 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 2
+2023-05-20 06:17:16,298 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 3
+2023-05-20 06:17:17,007 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 3
+2023-05-20 06:17:17,007 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 4
+2023-05-20 06:17:17,703 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 4
+2023-05-20 06:17:17,703 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 5
+2023-05-20 06:17:18,411 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 5
+2023-05-20 06:17:18,411 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 6
+2023-05-20 06:17:19,103 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 6
+2023-05-20 06:17:19,103 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 7
+2023-05-20 06:17:19,790 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 7
+2023-05-20 06:17:19,790 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 8
+2023-05-20 06:17:20,467 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 8
+2023-05-20 06:17:20,467 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 9
+2023-05-20 06:17:21,155 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 9
+2023-05-20 06:17:21,155 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 10
+2023-05-20 06:17:21,840 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 10
+2023-05-20 06:17:21,840 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 11
+2023-05-20 06:17:22,565 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 11
+2023-05-20 06:17:22,565 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 12
+2023-05-20 06:17:23,264 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 12
+2023-05-20 06:17:23,265 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 13
+2023-05-20 06:17:23,961 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 13
+2023-05-20 06:17:23,961 - Model Logger - INFO - [RFReg] Cross Validation loop started for fold 14
+2023-05-20 06:17:24,654 - Model Logger - INFO - [RFReg] Cross Validation loop ended for fold 14
+2023-05-20 06:17:24,654 - Model Logger - INFO - [RFReg] Main Training Loop Ended

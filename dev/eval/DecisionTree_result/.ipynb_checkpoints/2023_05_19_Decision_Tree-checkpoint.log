@@ -1,0 +1,35 @@
+2023-05-19 15:23:57,731 - Model Logger - INFO - Logging Started
+2023-05-19 15:23:58,503 - Model Logger - INFO - [DTReg] Hyper-Optim Started on fold 2
+2023-05-19 15:23:58,749 - Model Logger - INFO - [DTReg] Hyper-Optim Ended on fold 2
+2023-05-19 15:23:58,751 - Model Logger - INFO - [DTReg] Cross Validation loop started
+2023-05-19 15:23:58,751 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 0
+2023-05-19 15:23:58,762 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 0
+2023-05-19 15:23:58,762 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 1
+2023-05-19 15:23:58,772 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 1
+2023-05-19 15:23:58,772 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 2
+2023-05-19 15:23:58,782 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 2
+2023-05-19 15:23:58,783 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 3
+2023-05-19 15:23:58,793 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 3
+2023-05-19 15:23:58,793 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 4
+2023-05-19 15:23:58,804 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 4
+2023-05-19 15:23:58,804 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 5
+2023-05-19 15:23:58,814 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 5
+2023-05-19 15:23:58,814 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 6
+2023-05-19 15:23:58,825 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 6
+2023-05-19 15:23:58,825 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 7
+2023-05-19 15:23:58,836 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 7
+2023-05-19 15:23:58,837 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 8
+2023-05-19 15:23:58,847 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 8
+2023-05-19 15:23:58,847 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 9
+2023-05-19 15:23:58,857 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 9
+2023-05-19 15:23:58,858 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 10
+2023-05-19 15:23:58,868 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 10
+2023-05-19 15:23:58,868 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 11
+2023-05-19 15:23:58,879 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 11
+2023-05-19 15:23:58,879 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 12
+2023-05-19 15:23:58,890 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 12
+2023-05-19 15:23:58,890 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 13
+2023-05-19 15:23:58,900 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 13
+2023-05-19 15:23:58,900 - Model Logger - INFO - [DTReg] Cross Validation loop started for fold 14
+2023-05-19 15:23:58,911 - Model Logger - INFO - [DTReg] Cross Validation loop ended for fold 14
+2023-05-19 15:23:58,911 - Model Logger - INFO - [DTReg] Main Training Loop Ended
