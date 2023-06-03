@@ -62,11 +62,32 @@ The project aims to leverage the power of machine learning algorithms and chemic
 * [![Python][Python]][Python-url]
 * [![AWS EC2](https://img.shields.io/badge/-AWS%20EC2-yellow)](https://aws.amazon.com/ec2/)
 * [![Kaggle](https://img.shields.io/badge/-Kaggle-blueviolet)](https://www.kaggle.com/)
+* [![Ineuron](https://img.shields.io/badge/-Ineuron-red)](https://ineuron.ai/)
+
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+### ML Developement Architecture
+
+
+<img src="/docs/wireFrames/predicted state.png"/>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Sample UI
+
+
+<img src="/docs/wireFrames/predicted state.png"/>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
