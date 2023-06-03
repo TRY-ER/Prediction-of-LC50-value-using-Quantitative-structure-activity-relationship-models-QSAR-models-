@@ -14,24 +14,16 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a>About The Project</a>
     </li>
+    <li><a>Host Organization</a></li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a>Built With</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a >ML Developement Architecture</a></li>
+    <li><a >Sample Evaluation Graph</a></li>
+    <li><a >Sample UI</a></li>
+    <li><a >Contact</a></li>
   </ol>
 </details>
 
@@ -50,6 +42,14 @@ The project aims to leverage the power of machine learning algorithms and chemic
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Host Organization
+
+<img src="/docs/ineuron_logo.png"/>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -73,12 +73,20 @@ The project aims to leverage the power of machine learning algorithms and chemic
 ### ML Developement Architecture
 
 
-<img src="/docs/wireFrames/predicted state.png"/>
+<img src="/docs/architecture.png"/>
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Sample Evaluation Graph
+
+
+<img src="/dev/eval/plots/MSE_across_models.png"/>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Sample UI
 
@@ -96,7 +104,8 @@ The project aims to leverage the power of machine learning algorithms and chemic
 
 Debasish Mohanty - availdebasish@gmail.com
 
-Project Link: [[https://github.com/your_username/repo_name](https://github.com/TRY-ER/Prediction-of-LC50-value-using-Quantitative-structure-activity-relationship-models-QSAR-models-/tree/master)]([https://github.com/your_username/repo_name](https://github.com/TRY-ER/Prediction-of-LC50-value-using-Quantitative-structure-activity-relationship-models-QSAR-models-/tree/master))
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](linkedin.com/in/debasish-mohanty-634b91204/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
