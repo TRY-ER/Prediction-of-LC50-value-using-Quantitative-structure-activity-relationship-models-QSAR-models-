@@ -55,6 +55,8 @@ The project aims to leverage the power of machine learning algorithms and chemic
 
 [![Visit Website](https://img.shields.io/badge/-AWS%20EC2-yellow)](http://ec2-43-204-230-6.ap-south-1.compute.amazonaws.com:3000/)
 
+Note: If the web-page doesn't load try with http://... as it does not support https yet
+
 
 
 ### Built With
