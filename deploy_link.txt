@@ -1,1 +1,0 @@
-Public DNS of AWS EC2 instance -> http://ec2-43-204-230-6.ap-south-1.compute.amazonaws.com:3000/
