@@ -17,6 +17,7 @@
       <a>About The Project</a>
     </li>
     <li><a>Host Organization</a></li>
+    <li><a>Check Deployment</a></li>
     <li>
       <a>Built With</a>
     </li>
@@ -50,6 +51,9 @@ The project aims to leverage the power of machine learning algorithms and chemic
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Check Deployment
+
+[![Visit Website](https://img.shields.io/badge/-AWS%20EC2-yellow)](http://ec2-43-204-230-6.ap-south-1.compute.amazonaws.com:3000/)
 
 
 
