@@ -30,9 +30,9 @@ async def test():
 
 
 @app.post("/predict")
-async def provide(data: list):
-    print(data)
-    output = main(data)
+async def provide(data: dict):
+    data_main = data["value"]
+    output = main(data_main)
     return output
 
 
@@ -41,7 +41,7 @@ def predict_main(df):
     result_li = []
     for fold in range(num_folds):
         print(f"predicting for fold {fold} / {num_folds}")
-        model = joblib.load(f"./RandomForest_result/{fold}_xgb_reg.z")
+        model = joblib.load(f"./RandomForest_result/{fold}_model.z")
         print(df.shape)
         result = model.predict(df)
         print(result)
